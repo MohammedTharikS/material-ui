@@ -166,7 +166,7 @@ export default function MyComponent() {
       <Snackbar
         open={open}
         onClose={(event, reason) => {
-          // `reason === 'escapeKeyDown'` if `Escape` was pressed
+          // `reason === 'escapeKeyDown'` if `Escape` was pressed.
           setOpen(false);
           // call `event.preventDefault` to only close one Snackbar at a time.
         }}
